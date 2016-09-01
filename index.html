@@ -1,60 +1,80 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <meta charset="UTF-8">
     <title>JuniorScript by JuniorCode</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/JuniorCode/JuniorScript">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/JuniorCode/JuniorScript/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/JuniorCode/JuniorScript/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+    <section class="page-header">
+<img src="JrGradient.svg" width="600px"></img><br>
+<p>JuniorScript is a compiler for PHP, that makes everyday PHP development easier.</p>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/JuniorCode/JuniorScript" class="btn">View on GitHub</a>
+      <a href="https://github.com/JuniorCode/JuniorScript/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/JuniorCode/JuniorScript/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <div class="wrapper">
 
-      <section>
-        <div id="title">
-          <h1>JuniorScript</h1>
-          <p>The easy language for Juniors&#39;.</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/JuniorCode">JuniorCode</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
 
-        <p>Welcome to JuniorScript!</p>
+    <section class="main-content">
+      <h3>
 
-<form action="http://ijuniortv.com/run.php" method=get>
-  <textarea cols="50" rows="7" name="code"><JuniorScript>
+        <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h3>
 
-  #Code goes here
+        <p><strong>JuniorScript</strong> is a compiler for PHP, that makes everyday PHP development easier.</p>
 
-</JuniorScript></textarea>
- <br> <br><input type="submit" value="Run Code">
-</form>
-<br>
-<strong>Note:</strong> Use # to make a comment.
-Example: #comment.
-      </section>
+<h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JuniorScript Installation</h3>
 
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+<p><strong>Recommended: Install from Terminal</strong></p>
+<pre><code>curl -fsSLO https://raw.githubusercontent.com/JuniorCode/JuniorScript/master/juniorscript.sh && ./juniorscript.sh install</code></pre>
+<p>Copy and paste this command into your Terminal. This will automatically install the latest JuniorScript compiler.</p><br>
+<p><strong>Install from GitHub</strong></p>
+<pre><code>./juniorscript install</code></pre>
+<p>Download <a href="https://github.com/JuniorCode/JuniorScript">JuniorScript</a> from GitHub and type this command in your Terminal.</p>
+<h3>
+
+
+<h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples</h3>
+<p>PHP Code:</p>
+<pre><code>$color = "red";
+echo "My car is " . $color . ". ";
+echo "My house is " . $color . ". ";
+echo "My boat is " . $color . ".";</code></pre>
+<p>JuniorScript Code:</p>
+<pre><code>color = "red";
+out join("My car is ", $color, ". ");
+out join("My house is ", $color, ". ");
+out join("My boat is ", $color, ".");</code></pre>
+<p>Output:</p>
+<samp>My car is red.
+  My house is red.
+  My boat is red.</samp>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/JuniorCode/JuniorScript">JuniorScript</a> is created by <a href="https://github.com/JuniorCode">JuniorCode</a>.</span>
+
+      </footer>
+
+    </section>
+
+
+    <!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?4BSXEOt0xTAjgTD5Hvrse9Gd0LvdQChv";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zopim Live Chat Script-->
+
 
   </body>
 </html>
