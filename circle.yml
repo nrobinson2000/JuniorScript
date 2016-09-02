@@ -1,5 +1,6 @@
 test:
   post:
+  - chmod +x juniorscript.sh
   - time ./juniorscript.sh install
   - time ./juniorscript.sh compile/
   - time ./juniorscript.sh version/
