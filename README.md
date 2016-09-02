@@ -1,23 +1,15 @@
-#JuniorScript
+![alt text](JuniorScriptLogo.svg "Logo Title Text 1")
 ###About
-JuniorScript is a programming language that gets compiled into PHP code.
+JuniorScript is a compiler for PHP, that makes everyday PHP development easier.
 
 
 ###Setup
-1. First, you'll need to have [PHP 5 or higher](http://php.net/downloads.php) installed.
-2. Next, download [JuniorScript v1.0](run.php) on to your server.
-3. Finally, place this code in your PHP file when you want to use JuniorScript.
-```php
-<?php
+The easiest way to install JuniorScript is to copy and paste this into a command line:
+```bash
+curl -fsSLO https://git.io/vitqQ && ./juniorscript.sh install
+```
 
-  include( "juniorscript.php" );
-
-  $code = '
-  
-// Insert JuniorScript code here.
-
-  ';
-  
-?>
-
+Alternatively, you could download [JuniorScript] (https://github.com/JuniorCode/JuniorScript/zipball/master) and type the following command:
+```bash
+./juniorscript install
 ```
