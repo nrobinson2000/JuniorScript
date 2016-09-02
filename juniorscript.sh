@@ -107,4 +107,3 @@ sudo apt-get install -y php && echo "${bold}[JuniorScript]${normal} PHP installe
 fi
 ./juniorscript.sh
 fi
-\
