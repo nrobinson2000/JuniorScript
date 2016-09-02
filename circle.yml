@@ -1,0 +1,6 @@
+test:
+  post:
+  - time ./juniorscript.sh install
+  - time ./juniorscript.sh compile/
+  - time ./juniorscript.sh version/
+  - time ./juniorscript.sh update/
