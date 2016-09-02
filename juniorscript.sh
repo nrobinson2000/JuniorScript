@@ -105,5 +105,5 @@ then
 echo "${bold}[JuniorScript]${normal} Installing latest PHP version..."
 sudo apt-get install -y php && echo "${bold}[JuniorScript]${normal} PHP installed successfully!"
 fi
-./juniorscript.sh
+bash ./juniorscript.sh
 fi
