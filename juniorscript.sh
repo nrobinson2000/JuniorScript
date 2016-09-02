@@ -15,7 +15,7 @@ bold=$(tput bold)
 normal=$(tput sgr0)
 
 
-# Create commands in .bashrc
+# Create alias commands in .bashrc
 echo 'alias juniorscript="~/juniorscript.sh"' >> .bashrc
 echo 'alias jr="~/juniorscript.sh"' >> .bashrc
 
@@ -34,16 +34,7 @@ echo "
  | |__| | |_| | | | | | (_) | |  ____) | (__| |  | | |_) | |_ 
   \____/ \__,_|_| |_|_|\___/|_| |_____/ \___|_|  |_| .__/ \__|
                                                    | |        
-                                                   |_|                    
-                                                                                        
-";
-
-echo "Copyright (GPL) 2016  JuniorCode";
-echo "https://github.com/JuniorCode";
-echo $'\n'; echo "Thank you for installing ${bold}JuniorScript${normal}!"
-echo "
-
-
+                                                   |_|                                                                                   
 ________________________________________________________________________________	
 
 JuniorScript Commands:
@@ -90,7 +81,7 @@ ________________________________________________________________________________
 "
 else
 
-php -f compile.php
+php -f compile.php # Run compiler.
 
 fi
 fi
@@ -111,6 +102,7 @@ echo "${bold}[JuniorScript]${normal} Installing JuniorScript version 1.0..."
 if [ "$(which php)" == "" ];
 then
 echo "${bold}[JuniorScript]${normal} Installing latest PHP version..."
-sudo apt-get install -y php 
+sudo apt-get install -y php && echo "${bold}[JuniorScript]${normal} PHP installed successfully!"
 fi
+./juniorscript.sh
 fi
