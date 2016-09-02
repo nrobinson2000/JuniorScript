@@ -1,4 +1,7 @@
-![JuniorScript, an easy compiler for PHP that makes everyday PHP development easier.](JuniorScriptLogo2.png "JuniorScript")
+<img align="center" width="500px" src="http://juniorcode.me/JuniorScript/JuniorScriptLogo.svg"></img>
+
+##JuniorScript: An easy compiler for PHP that makes everyday PHP development easier.
+
 ###About
 JuniorScript is a compiler for PHP, that makes everyday PHP development easier.
 
