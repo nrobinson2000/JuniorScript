@@ -1,4 +1,4 @@
-<img align="center" width="500px" src="http://juniorcode.me/JuniorScript/JuniorScriptLogo.svg"></img>
+<p align="center"><img width="700px" src="http://juniorcode.me/JuniorScript/JuniorScriptLogo.svg"></img></p>
 
 ##JuniorScript: An easy compiler for PHP that makes everyday PHP development easier.
 
