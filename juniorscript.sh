@@ -88,7 +88,7 @@ fi
 
 if [ "$1" == "update" ];
 then
-echo "${bold}[JuniorScript]${normal}Update Complete."
+echo "${bold}[JuniorScript]${normal} Update Complete!"
 fi
 
 if [ "$1" == "version" ];
@@ -98,6 +98,7 @@ fi
 
 if [ "$1" == "install" ];
 then
+curl -fsSLO https://raw.githubusercontent.com/JuniorCode/JuniorScript/master/compile.php
 echo "${bold}[JuniorScript]${normal} Installing JuniorScript version 1.0..."
 if [ "$(which php)" == "" ];
 then
